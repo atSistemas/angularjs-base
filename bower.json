@@ -1,0 +1,26 @@
+{
+  "name": "Angular-Base",
+  "version": "1.0.0",
+  "authors": [
+    "Pablo Magaz <pmagaz@atsistemas.com>",
+    "Francisco Pi�eiro <fcpineiro@atsistemas.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    ".gitignore",
+    "../",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-animate": "~1.4.3",
+    "angular-aria": "~1.4.3",
+    "angular-material": "~0.10.1"
+  },
+  "resolutions": {
+    "angular": "~1.4.0"
+  }
+}
