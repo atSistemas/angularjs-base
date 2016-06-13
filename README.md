@@ -2,6 +2,13 @@
 
 # Angular-base: modular platform for your AngularJS apps
 
+# React-Base
+
+![Build-Status](https://travis-ci.org/atSistemas/angular-base.svg?branch=master)
+![Dependencies](https://david-dm.org/atSistemas/angular-base.svg)
+![Dev-dependencies](https://david-dm.org/atSistemas/angular-base/dev-status.svg)
+
+
 This repository is a modular abstraction to build a typical [AngularJS](http://angularjs.org/) web application.
 You can use it to quickly scaffold your Angular web app projects and dev environment for these projects.
 
