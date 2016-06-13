@@ -74,7 +74,7 @@
     "test": "npm run logo && gulp test",
     "test-all": "npm run logo && gulp test-all",
     "test-e2e": "npm run logo && gulp test-e2e",
-    "postinstall": "npm run bower-install && npm run test && npm run lint && npm run start"
+    "postinstall": "npm run bower-install && npm run test && npm run lint"
   },
   "browserify": {
     "transform": [
