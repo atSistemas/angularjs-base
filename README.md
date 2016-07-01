@@ -31,7 +31,7 @@ included in the project by default. You can get them from [nodejs.org][node] and
 Clone the angular-base repository using [git][git]:
 
 ```
-git clone https://github.com/angular/angular-base.git
+git clone https://github.com/atsistemas/angular-base.git
 cd angular-base
 ```
 
