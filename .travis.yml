@@ -12,3 +12,8 @@ script:
 notifications:
   slack:
     on_pull_requests: false
+notifications:
+  slack:
+    on_pull_requests: false
+    rooms:
+      - cejs-atsistemas:M6CFKRntBzELQ8smobHlwnDa#angular-base
