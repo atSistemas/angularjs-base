@@ -1,61 +1,34 @@
 {
   "name": "ANGULAR-BASE",
   "version": "1.0.0",
-  "description": "Anguar based Framework",
+  "description": "Anguar2-Base ",
   "author": {
     "name": "Pablo Magaz",
     "email": "pmagaz@atsistemas.com"
   },
   "contributors":[
     {
-      "name": "Francisco Piñeiro",
-      "email": "fcpineiro@atsistemas.com"
+      "name": "Rafael Bernad",
+      "email": "rbernad@atsistemas.com"
+    },
+    {
+      "name": "Eduardo Perez Bermejo",
+      "email": "eperez-bermejo@atsistemas.com"
     }
   ],
   "dependencies": {
-    "angular": "^1.4.7",
-    "angular-translate": "^2.8.1",
-    "angular-translate-loader-static-files": "^2.8.1",
-    "bower": "^1.6.3",
-    "brfs": "^1.4.1",
-    "browserify": "^11.2.0",
-    "browserify-shim": "^3.8.11",
-    "angular-ui-router": "^0.2.15"
+    "angular2": "2.0.0-beta.17",
+    "systemjs": "0.19.36",
+    "es6-shim": "^0.35.0",
+    "reflect-metadata": "0.1.3",
+    "rxjs": "5.0.0-beta.10",
+    "zone.js": "0.6.12"
   },
   "devDependencies": {
-    "angular-mocks": "^1.4.7",
-    "browserify-istanbul": "^0.2.1",
-    "chai": "^3.4.1",
-    "chai-as-promised": "^5.1.0",
-    "chai-shallow-deep-equal": "^1.3.0",
-    "gulp": "^3.9.0",
-    "gulp-concat": "^2.6.0",
-    "gulp-ignore": "^2.0.1",
-    "gulp-jshint": "^1.11.0",
-    "gulp-mocha": "^2.1.3",
-    "gulp-protractor": "^1.0.0",
-    "gulp-sass": "^2.2.0",
-    "gulp-server-livereload": "^1.2.1",
-    "gulp-strip-comments": "^1.0.1",
-    "gulp-uglify": "^1.2.0",
-    "jshint-stylish": "^2.0.1",
-    "karma": "^0.13.14",
-    "karma-browserify": "^4.4.0",
-    "karma-chai": "^0.1.0",
-    "karma-chai-as-promised": "^0.1.2",
-    "karma-chrome-launcher": "^0.2.1",
-    "karma-cli": "^0.1.1",
-    "karma-coverage": "0.2.6",
-    "karma-istanbul-reporter": "0.0.1",
-    "karma-mocha": "^0.2.0",
-    "karma-phantomjs-launcher": "^0.2.1",
-    "karma-spec-reporter": "0.0.22",
-    "mocha": "^2.3.3",
-    "phantomjs": "^1.9.18",
-    "sinon": "^1.17.2",
-    "sinon-chai": "^2.8.0",
-    "vinyl-buffer": "^1.0.0",
-    "vinyl-source-stream": "^1.1.0"
+    "concurrently": "^2.0.0",
+    "lite-server": "^2.2.0",
+    "typescript": "^1.8.10",
+    "typings": "^1.3.2"
   },
   "scripts": {
     "logo": "node .angular-base/lib/logo.js",
